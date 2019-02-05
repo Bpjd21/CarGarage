@@ -9,6 +9,8 @@ namespace CarGarage
         public int Speed { get; set; }
         public int FuelLevel { get; set;}
         public bool EngineOn = true;
+        public string CarMake { get; set; }
+        public string CarModel { get; set; }
 
         public Car()
         {
